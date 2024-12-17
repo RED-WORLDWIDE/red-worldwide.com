@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED WORLDWIDE - Internet de Fibra Óptica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #0078D7;
+            color: white;
+            margin-top: 20px;
+        }
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .plan {
+            background-color: #e1f5fe;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+        }
+        .plan h3 {
+            color: #0078D7;
+        }
+        .contact-info {
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a RED WORLDWIDE</h1>
+        <p>Tu proveedor de internet de fibra óptica confiable y de alta velocidad.</p>
+    </header>
+    
+    <section>
+        <h2>Sobre RED WORLDWIDE</h2>
+        <p>En RED WORLDWIDE nos especializamos en ofrecer servicios de internet de alta calidad mediante tecnología de fibra óptica. Nos comprometemos a brindarte conexiones rápidas y estables para que puedas disfrutar de una experiencia en línea sin interrupciones.</p>
+        <p>Contamos con planes flexibles adaptados a tus necesidades, desde conexiones de 10 hasta 30 Mbps. Ya sea para tu hogar o tu empresa, tenemos la opción perfecta para ti.</p>
+    </section>
+    
+    <section>
+        <h2>Nuestros Planes de Internet</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>Plan Básico</h3>
+                <p>Velocidad: 10 Mbps</p>
+                <p>Ideal para navegación básica, redes sociales y streaming en baja resolución.</p>
+                <p><strong>Precio: $20/mes</strong></p>
+            </div>
+            <div class="plan">
+                <h3>Plan Estándar</h3>
+                <p>Velocidad: 20 Mbps</p>
+                <p>Perfecto para familias o pequeños negocios que necesitan más velocidad para navegar y ver contenido en HD.</p>
+                <p><strong>Precio: $35/mes</strong></p>
+            </div>
+            <div class="plan">
+                <h3>Plan Avanzado</h3>
+                <p>Velocidad: 30 Mbps</p>
+                <p>Ideal para gamers, streaming en 4K y oficinas con necesidades de conexión rápida y estable.</p>
+                <p><strong>Precio: $50/mes</strong></p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-info">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas o deseas contratar alguno de nuestros planes? ¡Contáctanos!</p>
+        <p>Teléfono: <strong>67604011</strong></p>
+        <p>También puedes enviarnos un mensaje directo por WhatsApp haciendo clic en el siguiente botón:</p>
+        
+        <!-- Enlace a WhatsApp -->
+        <a href="https://wa.me/59167604011" class="whatsapp-btn" target="_blank">Enviar mensaje por WhatsApp</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 RED WORLDWIDE | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
